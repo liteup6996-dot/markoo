@@ -34,18 +34,18 @@
   --card-foreground: #17212b;
   --popover: #ffffff;
   --popover-foreground: #17212b;
-  --primary: #17365d;
+  --primary: #500778;
   --primary-foreground: #ffffff;
   --secondary: #edf1f5;
-  --secondary-foreground: #17365d;
+  --secondary-foreground: #32104f;
   --muted: #eef0f2;
   --muted-foreground: #5c6874;
-  --accent: #e8f1f1;
-  --accent-foreground: #0f5960;
+  --accent: #f2eafa;
+  --accent-foreground: #500778;
   --destructive: #b42318;
   --border: #d7dce1;
   --input: #c6cdd4;
-  --ring: #236a73;
+  --ring: #500778;
   --radius: .35rem;
 }
 
@@ -54,7 +54,7 @@ html { background: var(--background); }
 body { margin: 0; background: var(--background); color: var(--foreground); font-family: Arial, Helvetica, sans-serif; }
 button, input, select, textarea { font: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
-::selection { background: #c9e3e4; color: #17365d; }
+::selection { background: #eadcf4; color: #32104f; }
 
 @layer base {
   * { @apply border-border outline-ring/50; }
@@ -65,4 +65,4 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .academic-table th { background: #f0f3f5; color: #45515d; font-size: .72rem; letter-spacing: .035em; text-transform: uppercase; text-align: left; padding: .68rem .75rem; border-bottom: 1px solid var(--border); }
 .academic-table td { padding: .78rem .75rem; border-bottom: 1px solid #e3e6e9; vertical-align: top; }
 .academic-table tbody tr:hover { background: #f7f9fa; }
-.focus-ring:focus-visible { outline: 3px solid rgba(35,106,115,.25); outline-offset: 2px; }
+.focus-ring:focus-visible { outline: 3px solid rgba(80,7,120,.24); outline-offset: 2px; }
